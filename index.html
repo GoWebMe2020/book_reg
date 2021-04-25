@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MyBooks Registration</title>
+</head>
+<body>
+
+    <div class="landing_page">
+        <div class="left_side">
+            <h1>A room with books, is like a body with soul</h1>
+        </div>
+        <div class="right_side">
+            <form action="POST" class="reg_form">
+                <h4>Register today for to get your first 3 months free.</h4>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="Enter text here">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Enter text here">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" >
+                <label for="genre" id="genre_choice">Chose your favourite genre</label>
+                <div class="checkbox">
+                    <input type="checkbox" id="horror" name="horror">
+                    <label for="horror">Horror</label>
+                    <input type="checkbox" id="comedy" name="comedy">
+                    <label for="comedy">Comedy</label>
+                    <input type="checkbox" id="thriller" name="thriller">
+                    <label for="thriller">Thriller</label>
+                    <input type="checkbox" id="mystery" name="mystery">
+                    <label for="mystery">Mystery</label>
+                    <input type="checkbox" id="fantasy" name="fantasy">
+                    <label for="fantasy">Fantasy</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="documentary" name="documentary">
+                    <label for="documentary">Documentary</label>
+                    <input type="checkbox" id="war" name="war">
+                    <label for="war">War</label>
+                    <input type="checkbox" id="drama" name="drama">
+                    <label for="drama">Drama</label>
+                    <input type="checkbox" id="children" name="children">
+                    <label for="children">Children</label>
+                    <input type="checkbox" id="suspence" name="suspence">
+                    <label for="suspence">Suspence</label>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
